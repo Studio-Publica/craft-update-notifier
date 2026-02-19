@@ -1,0 +1,32 @@
+{
+	"name": "publica/craft-update-notifier",
+	"description": "CLI command to check for critical Craft CMS updates and notify via email",
+	"version": "dev-master",
+	"type": "craft-plugin",
+	"license": "proprietary",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "Publica",
+			"homepage": "https://github.com/publica"
+		}
+	],
+	"require": {
+		"craftcms/cms": "^5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Publica\\CraftUpdateNotifier\\": "src/"
+		}
+	},
+	"extra": {
+		"name": "Update Notifier",
+		"handle": "update-notifier"
+	},
+	"config": {
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true,
+			"craftcms/plugin-installer": true
+		}
+	}
+}
