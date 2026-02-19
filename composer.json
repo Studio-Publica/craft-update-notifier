@@ -1,8 +1,7 @@
 {
 	"name": "publica/craft-update-notifier",
 	"description": "CLI command to check for critical Craft CMS updates and notify via email",
-	"version": "dev-master",
-	"type": "craft-plugin",
+"type": "craft-plugin",
 	"license": "proprietary",
 	"minimum-stability": "stable",
 	"authors": [
